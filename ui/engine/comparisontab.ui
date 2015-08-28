@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ComparisonTab</class>
+ <widget class="QWidget" name="ComparisonTab">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1177</width>
+    <height>616</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1157</width>
+        <height>596</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="2" column="0">
+        <widget class="QGroupBox" name="groupBox_5">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="title">
+          <string>Representative workload- based partitioning. (Time in sec)</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_11">
+          <item row="0" column="0">
+           <widget class="QLabel" name="partout_time">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="title">
+          <string>Query runtimes for Bio2RDF (ms)</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="0" column="0">
+           <widget class="QLabel" name="bio2rdf">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="title">
+          <string>Preprocessing time (minutes)</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="0">
+           <widget class="QTableWidget" name="startupTab">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="horizontalScrollBarPolicy">
+             <enum>Qt::ScrollBarAsNeeded</enum>
+            </property>
+            <attribute name="horizontalHeaderStretchLastSection">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="verticalHeaderStretchLastSection">
+             <bool>false</bool>
+            </attribute>
+            <row>
+             <property name="text">
+              <string>AdHash</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>METIS</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>SHAPE</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>SHARD</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>H2RDF+</string>
+             </property>
+            </row>
+            <column>
+             <property name="text">
+              <string>LUBM-10240</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>WatDiv</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Bio2RDF</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>YAGO2</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </column>
+            <item row="0" column="0">
+             <property name="text">
+              <string>14</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </item>
+            <item row="0" column="1">
+             <property name="text">
+              <string>1.2</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </item>
+            <item row="0" column="2">
+             <property name="text">
+              <string>115</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </item>
+            <item row="0" column="3">
+             <property name="text">
+              <string>4</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </item>
+            <item row="1" column="0">
+             <property name="text">
+              <string>523</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </item>
+            <item row="1" column="1">
+             <property name="text">
+              <string>66</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </item>
+            <item row="1" column="2">
+             <property name="text">
+              <string>4,532</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </item>
+            <item row="1" column="3">
+             <property name="text">
+              <string>105</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </item>
+            <item row="2" column="0">
+             <property name="text">
+              <string>263</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </item>
+            <item row="2" column="1">
+             <property name="text">
+              <string>79</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </item>
+            <item row="2" column="2">
+             <property name="text">
+              <string>&gt;24h</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </item>
+            <item row="2" column="3">
+             <property name="text">
+              <string>251</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </item>
+            <item row="3" column="0">
+             <property name="text">
+              <string>72</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </item>
+            <item row="3" column="1">
+             <property name="text">
+              <string>9</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </item>
+            <item row="3" column="2">
+             <property name="text">
+              <string>143</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </item>
+            <item row="3" column="3">
+             <property name="text">
+              <string>17</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </item>
+            <item row="4" column="0">
+             <property name="text">
+              <string>152</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </item>
+            <item row="4" column="1">
+             <property name="text">
+              <string>9</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </item>
+            <item row="4" column="2">
+             <property name="text">
+              <string>387</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </item>
+            <item row="4" column="3">
+             <property name="text">
+              <string>22</string>
+             </property>
+             <property name="textAlignment">
+              <set>AlignRight|AlignVCenter</set>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QGroupBox" name="groupBox_6">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="title">
+          <string>Query runtimes for LUBM-10240 (ms)</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_12">
+          <item row="0" column="0">
+           <widget class="QLabel" name="lubm1b">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QGroupBox" name="groupBox_7">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="title">
+          <string>Representative workload- based partitioning. (Communication in GiB)</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_13">
+          <item row="0" column="0">
+           <widget class="QLabel" name="partout_comm">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
