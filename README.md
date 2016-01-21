@@ -1,4 +1,4 @@
-#Adaptive Partitioning for Very Large RDF Data
+#Accelerating SPARQL Queries by Exploiting Hash-based Locality and Adaptive Partitioning
 ## Introduction
 State-of-the-art distributed RDF systems partition data across multiple computer nodes (workers). Some systems perform cheap hash partitioning, which may result in expensive query evaluation, while others apply heuristics aiming at minimizing inter-node communication during query evaluation. This requires an expensive data pre-processing phase, leading to high startup costs for very large RDF knowledge bases. Apriori knowledge of the query workload has also been used to create partitions, which however are static and do not adapt to workload changes; as a result, inter-node communication cannot be consistently avoided for queries that are not favored by the initial data partitioning.
 
